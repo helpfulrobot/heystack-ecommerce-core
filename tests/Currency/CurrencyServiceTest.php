@@ -215,6 +215,5 @@ class CurrencyServiceTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($currency instanceof CurrencyInterface);
 
         $this->assertEquals('AUD', $currency->getCurrencyCode());
-
     }
 }

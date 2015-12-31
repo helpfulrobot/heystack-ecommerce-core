@@ -99,7 +99,6 @@ class LocaleServiceTest extends \PHPUnit_Framework_TestCase
         $country = $this->localeService->getActiveCountry();
         $this->assertTrue($country instanceof CountryInterface);
         $this->assertEquals('Oztralia', $country->getName());
-
     }
 
     /**

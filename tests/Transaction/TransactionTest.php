@@ -133,7 +133,6 @@ class TransactionTest extends \PHPUnit_Framework_TestCase
         $this->transaction->updateTotal();
 
         $this->assertEquals(new NZD(100), $this->transaction->getTotal());
-
     }
 
     /**
